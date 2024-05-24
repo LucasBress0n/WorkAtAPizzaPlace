@@ -1,0 +1,30 @@
+.HomeView-mainpizza-containers {
+  border: 1px solid black;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.HomeView-pizza-info {
+  padding: 1% 1% 1% 1%;
+  border: 1px solid black;
+}
+
+.HomeView-pizza-details {
+  border-top: 2px gray solid;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.HomeView-pizza-details * {
+  flex-basis: 10%;
+}
+
+.HomeView-employee-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
